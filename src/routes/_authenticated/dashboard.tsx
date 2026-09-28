@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { DashboardScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/dashboard")({head:()=>({meta:[{title:"Inicio — FinIA 50"},{name:"description",content:"Resumen general de tu situación financiera."},{property:"og:title",content:"Inicio — FinIA 50"},{property:"og:description",content:"Tu centro de control financiero personal."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:DashboardScreen});

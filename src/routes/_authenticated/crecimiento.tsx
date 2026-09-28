@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { GrowthScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/crecimiento")({head:()=>({meta:[{title:"Crecimiento — FinIA 50"},{name:"description",content:"Portafolio e historial de inversión."},{property:"og:title",content:"Crecimiento — FinIA 50"},{property:"og:description",content:"Estrategia de crecimiento patrimonial."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:GrowthScreen});

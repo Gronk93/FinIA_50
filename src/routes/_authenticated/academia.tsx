@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { AcademyScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/academia")({head:()=>({meta:[{title:"Academia — FinIA 50"},{name:"description",content:"Biblioteca de educación financiera."},{property:"og:title",content:"Academia — FinIA 50"},{property:"og:description",content:"Aprendizaje financiero disciplinado."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:AcademyScreen});

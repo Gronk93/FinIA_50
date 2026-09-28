@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { TradingLabScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/trading-lab")({head:()=>({meta:[{title:"Trading Lab — FinIA 50"},{name:"description",content:"Planificación y gestión de riesgo para trading."},{property:"og:title",content:"Trading Lab — FinIA 50"},{property:"og:description",content:"Planifica operaciones con disciplina."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:TradingLabScreen});

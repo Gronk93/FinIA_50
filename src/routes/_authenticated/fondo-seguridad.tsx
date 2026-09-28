@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { SecurityFundScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/fondo-seguridad")({head:()=>({meta:[{title:"Fondo Seguridad — FinIA 50"},{name:"description",content:"Administra tu respaldo financiero y liquidez."},{property:"og:title",content:"Fondo Seguridad — FinIA 50"},{property:"og:description",content:"Liquidez y respaldo financiero."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:SecurityFundScreen});

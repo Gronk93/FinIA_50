@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { SettingsScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/configuracion")({head:()=>({meta:[{title:"Configuración — FinIA 50"},{name:"description",content:"Perfil, preferencias, seguridad e integraciones futuras."},{property:"og:title",content:"Configuración — FinIA 50"},{property:"og:description",content:"Administra tu espacio FinIA 50."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:SettingsScreen});

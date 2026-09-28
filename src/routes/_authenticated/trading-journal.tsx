@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { JournalScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/trading-journal")({head:()=>({meta:[{title:"Trading Journal — FinIA 50"},{name:"description",content:"Bitácora trazable de operaciones."},{property:"og:title",content:"Trading Journal — FinIA 50"},{property:"og:description",content:"Aprende de cada operación."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:JournalScreen});

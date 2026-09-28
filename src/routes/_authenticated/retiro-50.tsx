@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { RetirementScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/retiro-50")({head:()=>({meta:[{title:"Retiro 50 — FinIA 50"},{name:"description",content:"Proyección conceptual hacia la independencia financiera."},{property:"og:title",content:"Retiro 50 — FinIA 50"},{property:"og:description",content:"Visualiza tu camino a la independencia financiera."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:RetirementScreen});

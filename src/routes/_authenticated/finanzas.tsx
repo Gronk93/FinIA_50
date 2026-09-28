@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { FinancesScreen } from "@/components/finia/screens";
+export const Route=createFileRoute("/_authenticated/finanzas")({head:()=>({meta:[{title:"Mis Finanzas — FinIA 50"},{name:"description",content:"Ingresos, gastos y patrimonio personal."},{property:"og:title",content:"Mis Finanzas — FinIA 50"},{property:"og:description",content:"Control financiero personal."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:FinancesScreen});

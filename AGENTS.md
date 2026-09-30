@@ -9,6 +9,7 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Keep FinIA 50 financial data in a standalone mock module, not browser storage or Cloud, because PRD-01 validates layout before financial persistence.
+- Lovable Cloud is the single source of truth for finances (Dashboard, Mis Finanzas, profile); finia-data.ts only feeds still-demo modules, because PRD-02 requires real, per-user persisted data.
+- Keep 50/30/20 calculations in the pure src/lib/budget-engine.ts (tested with vitest); month close/reopen runs as DB functions, because results must be deterministic and traceable.
 - Protect private FinIA screens under the authenticated route layout and keep access/recovery public, because private screens require a verified session.
 - Use semantic theme tokens for dark and light appearances, because financial status colors must remain meaningful in either mode.

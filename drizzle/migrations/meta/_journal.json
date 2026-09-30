@@ -1,5 +1,27 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790616929181,
+      "tag": "0000_prd02_finance_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790654546072,
+      "tag": "0001_close_month_card_debt",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790733703437,
+      "tag": "0002_revoke_trigger_fn_execute",
+      "breakpoints": true
+    }
+  ]
 }
